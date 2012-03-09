@@ -39,16 +39,53 @@ h1 {
 
 h2 {
 	font-family: 'Cantata One', serif;
-	font:size: 32px;
+	font:size50px;
 	color: #d4a017;
-	text-shadow: 2px 2px 1px #150401;
-	width: 290px;
+	text-shadow: 1px 1px 1px #150401;
+	width: 300px;
 	margin-top: 50px;
+}
+
+h3 {
+	font-family: 'Cantata One', serif;
+	font:size: 32px;
+	color: #7b0003;
+	margin-top: 50px;
+}
+
+h4 {
+	font-family: 'Cantata One', serif;
+	font:size: 24px;
+	color: #d4a017;
+	margin-top: 20px;
+}
+
+h5 {
+	font-family: 'Cantata One', serif;
+	font:size: 16px;
+	color: #657f8f;
+	margin-top:22px;
 }
 
 p {
 	font-family: 'Simonetta', cursive;
 	color: #150401;
+}
+
+a:link{
+	color: #7b0003;
+}
+
+a:visited{
+	color: #5e583b;
+}
+
+a:hover{
+	color: #b7410b;
+}
+
+a:active{
+	color: #657f8f;
 }
 
 img {
@@ -83,24 +120,26 @@ ol li {
 }
 
 #rafting {
+	border: 5px solid $#150401;
 	float: right;
-	padding: 10px 0px 0px 300px
+	clear: right;
 }
 
 .top {
 	color: #dbc497;
+	font-size: 18px;
 	background-color: #321c12;
 	border: 3px solid #150401;
 	border-radius: 10px;
-	padding: 10px 10px 0px 0px;
+	padding: 10px 10px 126px 10px;
 	width: 400px;
-	margin: 10px 5px;
+	margin: 10px 0px;
 	box-shadow: 5px 5px 5px #150401
 }
 
-.main1 .main2 .main3 .main4 {
+.main {
 	font-family: 'Simonetta', cursive;
-	font-size: 16px;
+	font-size: 18px;
 	color: #150401;
 }	
 
@@ -114,3 +153,4 @@ ol li {
 	-moz-column-count: 3;
 	-moz-column-gap: 25px;
 }
+
