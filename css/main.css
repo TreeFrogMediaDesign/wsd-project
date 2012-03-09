@@ -1,3 +1,76 @@
-p{
-	color: red;
+
+
+*/Color Swatch-------------------------------------------------------------------
+	yellow		d4a017
+	orange		b7410b
+	red			7b0003
+	blue		657f8f
+	green		5e583b
+	brown		321c12
+	dark brown	150401
+	link tan	dbc497
+--------------------------------------------------------------------------------*/
+	
+*/Font Family--------------------------------------------------------------------
+	font-family: 'Ribeye', cursive;
+	font-family: 'Cantata One', serif;
+	font-family: 'Simonetta', cursive;
+	font-family: 'Shadows Into Light Two', cursive;
+--------------------------------------------------------------------------------*/
+
+body{
+	font-family: 'Simonetta', cursive;
+	font-size: 14px;
+	line-height: 1.5;
+	width: 1040px;
+	background-image: #150401 url<'../images/stone_medium_dark_brown_BG.jpg'>;
+}
+	
+
+
+h1 {
+	font-family: 'Ribeye', cursive;
+	font-color: #150401;
+}
+
+h2 {
+	font-family: 'Cantata One', serif;
+	font-color: #d4a017;
+	text-shadow: 1px 1px 1px #150401;
+}	
+
+p {
+	font-family: 'Simonetta', cursive;
+	font-color: #150401;
+}
+
+img {
+	float: left;
+	clear: left;
+}
+
+#phone {
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 45px;
+	font-color: #150401;
+	float: right;
+	clear: right;
+}
+
+ol li {
+	display: inline;
+	float: right;
+	clear: right;
+}
+
+#facebook {
+	float: right;
+}
+
+#twitter {
+	float: right;
+}
+
+#youtube {
+	float: right;
 }
