@@ -23,25 +23,32 @@ body{
 	font-size: 14px;
 	line-height: 1.5;
 	width: 1040px;
-	background-image: #150401 url<'../images/stone_medium_dark_brown_BG.jpg'>;
+	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	background-image: #150401 url<../images/stone_medium_dark_brown_BG.jpg>;
+	backgound-color: 150401;
 }
-	
-
 
 h1 {
 	font-family: 'Ribeye', cursive;
-	font-color: #150401;
+	font-size: 38px;
+	color: #150401;
 }
 
 h2 {
 	font-family: 'Cantata One', serif;
-	font-color: #d4a017;
-	text-shadow: 1px 1px 1px #150401;
-}	
+	font:size: 32px;
+	color: #d4a017;
+	text-shadow: 2px 2px 1px #150401;
+	width: 290px;
+	margin-top: 50px;
+}
 
 p {
 	font-family: 'Simonetta', cursive;
-	font-color: #150401;
+	color: #150401;
 }
 
 img {
@@ -52,9 +59,9 @@ img {
 #phone {
 	font-family: 'Shadows Into Light Two', cursive;
 	font-size: 45px;
-	font-color: #150401;
-	float: right;
-	clear: right;
+	color: #150401;
+	background-color: #657f8f;
+	padding: 0px 0px 85px 1045px;
 }
 
 ol li {
@@ -73,4 +80,37 @@ ol li {
 
 #youtube {
 	float: right;
+}
+
+#rafting {
+	float: right;
+	padding: 10px 0px 0px 300px
+}
+
+.top {
+	color: #dbc497;
+	background-color: #321c12;
+	border: 3px solid #150401;
+	border-radius: 10px;
+	padding: 10px 10px 0px 0px;
+	width: 400px;
+	margin: 10px 5px;
+	box-shadow: 5px 5px 5px #150401
+}
+
+.main1 .main2 .main3 .main4 {
+	font-family: 'Simonetta', cursive;
+	font-size: 16px;
+	color: #150401;
+}	
+
+.main5 {
+	font-family: 'Simonetta', cursive;
+	font-size: 30px;
+	color: #150401;
+}
+
+.bottom {
+	-moz-column-count: 3;
+	-moz-column-gap: 25px;
 }
