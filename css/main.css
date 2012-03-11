@@ -1,79 +1,64 @@
-
-
-*/Color Swatch-------------------------------------------------------------------
-	yellow		d4a017
-	orange		b7410b
-	red			7b0003
-	blue		657f8f
-	green		5e583b
-	brown		321c12
-	dark brown	150401
-	link tan	dbc497
---------------------------------------------------------------------------------*/
-	
-*/Font Family--------------------------------------------------------------------
-	font-family: 'Ribeye', cursive;
-	font-family: 'Cantata One', serif;
-	font-family: 'Simonetta', cursive;
-	font-family: 'Shadows Into Light Two', cursive;
---------------------------------------------------------------------------------*/
-
 body{
 	font-family: 'Simonetta', cursive;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.5;
 	width: 1040px;
 	margin: 0 auto;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0;
-	background-image: #150401 url<../images/stone_medium_dark_brown_BG.jpg>;
-	backgound-color: 150401;
+	background-image: url("../images/stone_BG.jpg");
+	background-repeat: repeat-x;
+	background-position: center top;
+	margin: 0 auto;
+	overflow: hidden;
 }
 
 h1 {
 	font-family: 'Ribeye', cursive;
-	font-size: 38px;
+	font-size: 40px;
 	color: #150401;
 }
 
 h2 {
 	font-family: 'Cantata One', serif;
-	font:size50px;
+	font-size: 26px;
 	color: #d4a017;
 	text-shadow: 1px 1px 1px #150401;
-	width: 300px;
-	margin-top: 50px;
+	width: 310px;
+	margin-top: 10px 10px;
 }
 
 h3 {
 	font-family: 'Cantata One', serif;
-	font:size: 32px;
-	color: #7b0003;
-	margin-top: 50px;
+	font-size: 36px;
+	color: #fff;
+	margin-top: 25px;
 }
 
 h4 {
 	font-family: 'Cantata One', serif;
-	font:size: 24px;
-	color: #d4a017;
+	font-size: 20px;
+	color: #7b0003;
 	margin-top: 20px;
 }
 
 h5 {
 	font-family: 'Cantata One', serif;
-	font:size: 16px;
-	color: #657f8f;
+	font-size: 24px;
+	color: #7b0003;
 	margin-top:22px;
 }
 
-p {
-	font-family: 'Simonetta', cursive;
-	color: #150401;
+h6 {
+	font-family: 'Cantata One', serif;
+	font-size: 16px;
+	color: #ffffff;
+	margin-top:40px;
 }
 
 a:link{
-	color: #7b0003;
+	color: #d4a017;
 }
 
 a:visited{
@@ -81,11 +66,11 @@ a:visited{
 }
 
 a:hover{
-	color: #b7410b;
+	color: #7b0003;
 }
 
 a:active{
-	color: #657f8f;
+	color: #7b0003;
 }
 
 img {
@@ -98,7 +83,7 @@ img {
 	font-size: 45px;
 	color: #150401;
 	background-color: #657f8f;
-	padding: 0px 0px 85px 1045px;
+	padding: 0px 0px 84px 670px;
 }
 
 ol li {
@@ -127,7 +112,7 @@ ol li {
 
 .top {
 	color: #dbc497;
-	font-size: 18px;
+	font-size: 16px;
 	background-color: #321c12;
 	border: 3px solid #150401;
 	border-radius: 10px;
@@ -139,7 +124,7 @@ ol li {
 
 .main {
 	font-family: 'Simonetta', cursive;
-	font-size: 18px;
+	font-size: 16px;
 	color: #150401;
 }	
 
@@ -149,8 +134,46 @@ ol li {
 	color: #150401;
 }
 
-.bottom {
+#bottom {
 	-moz-column-count: 3;
 	-moz-column-gap: 25px;
 }
 
+.pictures {
+	color: #dbc497;
+	font-size: 18px;
+	background-color: #321c12;
+	border: 3px solid #150401;
+	border-radius: 10px;
+	padding: 10px 10px 10px 10px;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 5px 5px 5px #150401
+}
+
+.video {
+	color: #dbc497;
+	font-size: 18px;
+	background-color: #321c12;
+	border: 3px solid #150401;
+	border-radius: 10px;
+	padding: 10px 10px 10px 10px;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 5px 5px 5px #150401
+}
+
+.adventure {
+	color: #dbc497;
+	font-size: 18px;
+	background-color: #321c12;
+	border: 3px solid #150401;
+	border-radius: 10px;
+	padding: 10px 10px 10px 10px;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 5px 5px 5px #150401
+}
