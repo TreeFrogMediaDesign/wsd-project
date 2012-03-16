@@ -1,7 +1,5 @@
 body{
-	font-family: 'Simonetta', cursive;
-	font-size: 16px;
-	line-height: 1.5;
+	font: 100%/1.5 'Simonetta', cursive;
 	width: 1040px;
 	margin: 0 auto;
 	margin-left: auto;
@@ -14,47 +12,32 @@ body{
 	overflow: hidden;
 }
 
-h1 {
-	font-family: 'Ribeye', cursive;
-	font-size: 40px;
-	color: #150401;
-}
-
-h2 {
-	font-family: 'Cantata One', serif;
-	font-size: 26px;
-	color: #d4a017;
-	text-shadow: 1px 1px 1px #150401;
-	width: 310px;
-	margin-top: 10px 10px;
-}
-
 h3 {
 	font-family: 'Cantata One', serif;
-	font-size: 36px;
-	color: #fff;
+	font-size: 2em;
+	color: #f4f4f4;
 	margin-top: 25px;
 }
 
 h4 {
 	font-family: 'Cantata One', serif;
-	font-size: 20px;
+	font-size: 1em;
 	color: #7b0003;
 	margin-top: 20px;
 }
 
 h5 {
 	font-family: 'Cantata One', serif;
-	font-size: 24px;
+	font-size: 1.5em;
 	color: #7b0003;
 	margin-top:22px;
 }
 
 h6 {
 	font-family: 'Cantata One', serif;
-	font-size: 16px;
+	font-size: 1em;
 	color: #ffffff;
-	margin-top:40px;
+	margin-top:32px;
 }
 
 a:link{
@@ -66,24 +49,36 @@ a:visited{
 }
 
 a:hover{
-	color: #7b0003;
+	color: #f4f4f4;
 }
 
 a:active{
 	color: #7b0003;
 }
 
-img {
+#head {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#logo_container img {
 	float: left;
 	clear: left;
 }
 
 #phone {
 	font-family: 'Shadows Into Light Two', cursive;
-	font-size: 45px;
+	font-size: 2.8125em;
 	color: #150401;
 	background-color: #657f8f;
-	padding: 0px 0px 84px 670px;
+	padding: 0% 0% 8.0769230769231% 64.4230769230769%;
+}
+
+#rock {
+	width: 100%
+	margin: 0 auto;
+	float: left;
+	clear: left;
 }
 
 ol li {
@@ -94,44 +89,74 @@ ol li {
 
 #facebook {
 	float: right;
+	max-width: 100%;
 }
 
 #twitter {
 	float: right;
+	max-width: 100%;
 }
 
 #youtube {
 	float: right;
+	max-width: 100%;
 }
 
 #rafting {
 	border: 5px solid $#150401;
 	float: right;
 	clear: right;
+	max-width: 100%;
 }
 
-.top {
+#top {
 	color: #dbc497;
-	font-size: 16px;
-	background-color: #321c12;
+	font-size: 1em;
+	background-color: rgba(50, 28, 18, 0.5);
 	border: 3px solid #150401;
 	border-radius: 10px;
-	padding: 10px 10px 126px 10px;
-	width: 400px;
-	margin: 10px 0px;
+	padding: 2.5% 2.5% 2.5% 2.5%;
+	width: 94.4615384615385%;
+	margin: .9615384615385% 0%;
 	box-shadow: 5px 5px 5px #150401
+}
+
+h1 {
+	font-family: 'Ribeye', cursive;
+	font-size: 2.5em;
+	color: #150401;
+}
+
+#p1 {
+	max-width: 100%;
+}
+
+#rafting img {
+	max-width: 66.3461538461538%
+	float: right;
+	clear: right;
+}
+
+h2 {
+	font-family: 'Cantata One', serif;
+	font-size: 1.53em;
+	color: #d4a017;
+	text-shadow: 1px 1px 1px #150401;
+	width: 29.8076923076923%;
+	margin-top: .0615384615385%;
 }
 
 .main {
 	font-family: 'Simonetta', cursive;
-	font-size: 16px;
+	font-size: 1em;
 	color: #150401;
 }	
 
 .main5 {
 	font-family: 'Simonetta', cursive;
-	font-size: 30px;
+	font-size: 1.875em;
 	color: #150401;
+	text-align: center;
 }
 
 #bottom {
@@ -141,12 +166,12 @@ ol li {
 
 .pictures {
 	color: #dbc497;
-	font-size: 18px;
-	background-color: #321c12;
+	font-size: 1.125em;
+	background-color: rgba(50, 28, 18, 0.5);
 	border: 3px solid #150401;
 	border-radius: 10px;
-	padding: 10px 10px 10px 10px;
-	width: 300px;
+	padding: 3.333%;
+	width: 90.8461538461538%;
 	margin-right: auto;
 	margin-left: auto;
 	box-shadow: 5px 5px 5px #150401
@@ -154,12 +179,12 @@ ol li {
 
 .video {
 	color: #dbc497;
-	font-size: 18px;
-	background-color: #321c12;
+	font-size: 1.125em;
+	background-color: rgba(50, 28, 18, 0.5);
 	border: 3px solid #150401;
 	border-radius: 10px;
-	padding: 10px 10px 10px 10px;
-	width: 300px;
+	padding: 3.333%;
+	width: 90.8461538461538%;
 	margin-right: auto;
 	margin-left: auto;
 	box-shadow: 5px 5px 5px #150401
@@ -167,12 +192,12 @@ ol li {
 
 .adventure {
 	color: #dbc497;
-	font-size: 18px;
-	background-color: #321c12;
+	font-size: 1.125em;
+	background-color: rgba(50, 28, 18, 0.5);
 	border: 3px solid #150401;
 	border-radius: 10px;
-	padding: 10px 10px 10px 10px;
-	width: 300px;
+	padding: 3.333%;
+	width: 90.8461538461538%;
 	margin-right: auto;
 	margin-left: auto;
 	box-shadow: 5px 5px 5px #150401
