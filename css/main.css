@@ -210,20 +210,20 @@ h2 {
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media screen and (min-width: 768px) and (max-width:959px) {
 		#top {
-			background-color: #509cff;
+	background-color: rgba(50, 28, 18, 0.5);
 		}
 }
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
 		#top {
-			background-color: #ff7743; 
+	background-color: rgba(212, 160, 23, 0.5);
 		}
 }
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
 		#top {
-			background-color: #d593ff;
+	background-color: rgba(123, 0, 3, 0.5);
 		}
 }
