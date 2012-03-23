@@ -6,7 +6,7 @@ body {
 	margin-right: auto;
 	padding: 0;
 	background-image: url("../images/stone_BG.jpg");
-	background-repeat: repeat-x;
+	background-repeat: repeat;
 	background-position: center top;
 	margin: 0 auto;
 	overflow: hidden;
@@ -206,6 +206,24 @@ a:active{
 	-moz-column-gap: 40px;
 }
 
+table {
+	border-collapse: collapse;
+	border: 1px solid #150401;
+	margin: 16px auto;
+}
+
+td {
+	border: 1px solid #150401;
+	padding: 0.3em;
+}
+
+th {
+	text-align: left;
+	background-color: rgba(50, 28, 18, 0.5);
+	color: #f1f1f1;
+	padding: 0.3em;
+}
+
 .pictures {
 	float: left;
 	color: #dbc497;
@@ -249,22 +267,16 @@ a:active{
 	box-shadow: 5px 5px 5px #150401;
 }
 
-table {
-	border-collapse: collapse;
-	border: 1px solid #150401;
+form {
+	float: left;
+	clear: left;
 	margin: 16px auto;
 }
 
-td {
-	border: 1px solid #150401;
-	padding: 0.3em;
-}
-
-th {
-	text-align: left;
-	background-color: rgba(50, 28, 18, 0.5);
-	color: #f1f1f1;
-	padding: 0.3em;
+footer {
+	float: right;
+	clear: right;
+	margin: 16px auto;
 }
 
 /* =Media Queries
